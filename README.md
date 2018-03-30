@@ -1,3 +1,2 @@
 # ShellScripts
-Scripts em Shell, com foco em plugins para o Nagios
-Qualquer contribuição é sempre bem vinda!
+Scripts em Shell, com foco em plugins para o Nagios. Qualquer contribuição é sempre bem vinda!
