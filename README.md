@@ -1,2 +1,2 @@
 # ShellScripts
-Scripts em Shell, com foco em plugins para o Nagios. Qualquer contribuição é sempre bem vinda!
+Plugins de monitoria de aplicações para [Check_MK](https://mathias-kettner.de/)
