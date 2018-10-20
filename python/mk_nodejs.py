@@ -23,6 +23,11 @@ Boolean ALLOW_ROOT
     True: OK se executado como root
     False: CRIT se executado como root
 
+Boolean PRINT_PM_ID
+    True: Nome do serviço + id do PM2 (Ex: Node_MeuServico_18_STATUS)
+    False: Nome do serviço (Ex: Node_MeuServico_STATUS)
+    Obs: Deixar com True somente se houver vários serviços com mesmo nome
+
 Boolean RESTARTS_WARN
     True: WARN depois de x minutos
     False: CRIT para sempre
@@ -31,7 +36,7 @@ Integer RESTARTS_WARN_AFTER
     Se RESTARTS_WARN for True, então o alerta passa a ser
     WARN depois de x minutos
 """
-USER='eduardo'
+USER='application-user'
 ALLOW_ROOT=False
 PRINT_PM_ID=False
 RESTARTS_WARN=False
